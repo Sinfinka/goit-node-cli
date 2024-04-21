@@ -1,0 +1,29 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinfinka/goit-node-cli.git"
+  },
+  "author": "Inga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sinfinka/goit-node-cli/issues"
+  },
+  "homepage": "https://github.com/Sinfinka/goit-node-cli#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
